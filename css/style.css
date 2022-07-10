@@ -46,7 +46,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #73777B;
   color: white;
   opacity: 0.8;
   width: 100%;
@@ -67,9 +67,57 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: solid 2px #0284d0;
+  border-bottom: solid 2px #f1eee9;
+  text-shadow: 0.07em 0.04em #ec994b;
 }
 
 .navbar .logo {
   font-weight: 400;
+  text-shadow: 0.03em 0.02em #000;
+}
+
+/* Header */
+.hero {
+  background: url('../images/home/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 1.25em;
+}
+
+.hero .content h1 {
+  font-size: 5.5rem;
+  text-shadow: 0.03em 0.02em black;
+}
+
+.hero .content p {
+  font-size: 2.3rem;
+  max-width: 60rem;
+  margin: 0.87em 0 1.3em;
+  text-shadow: 0.07em 0.04em black;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #15133c; */
+  background-color: #ec994b;
+  opacity: 0.2;
+}
+
+.hero * {
+  z-index: 10;
 }

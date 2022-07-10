@@ -1,9 +1,47 @@
 /* Text colors */
 .text-primary {
-  /* color: #28a745; */
-  color: #0284d0;
+  color: #ec994b;
 }
 
 .text-secondary {
   color: #28a745;
+}
+
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 1rem 3rem;
+  color: #fff;
+  border: solid 1px transparent;
+  border-radius: 25px;
+  text-shadow: 0.07em 0.04em #15133c;
+  font-weight: 550;
+  background-color: #15133c;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  border-color: #73777b;
+  opacity: 1;
+}
+
+.btn-primary {
+  background-color: #0e364d;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #1363DF;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #dff6ff;
+}
+
+.btn-light {
+  background-color: #dff6ff;
+  color: #333;
 }
