@@ -184,6 +184,29 @@ img {
   margin-top: 1.25em;
 }
 
+/* Post */
+.post {
+  padding: 3.13em 1.875em;
+}
+
+.post h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: solid 1px #ccc;
+}
+
+.post .meta {
+  margin-bottom: 1.875em;
+}
+
+.post img {
+  width: 30rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.875em;
+}
+
 /* Footer */
 .footer {
   display: flex;
