@@ -197,6 +197,33 @@ img {
   color: #ec994b;
 }
 
-.footer .social > * {
+.footer .social>* {
   margin-right: 1.9em;
+}
+
+/* Mobile */
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 7.5em;
+    padding: 1.25em;
+  }
+
+  .navbar a {
+    padding: 0.625em;
+    margin: 0 0.19em;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+    width: 70%;
+  }
 }
