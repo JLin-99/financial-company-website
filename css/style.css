@@ -236,6 +236,10 @@ img {
   margin-right: 1.9em;
 }
 
+.footer a:last-child {
+  margin-right: 0;
+}
+
 /* Mobile */
 @media(max-width: 768px) {
   .navbar {
